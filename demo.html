@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/data.css">
+    <link rel="stylesheet" href="css/animation.css">
+
+    <script src="js/jQuery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/data.js"></script>
+
+</head>
+<body >
+<div class="panel panel-primary"style="z-index: 999;position: relative">
+    <div class="panel-heading">
+        <h3 class="panel-title">备忘录</h3>
+    </div>
+    <div class="add panel-body">
+        <h3 class="panel-title">添加标签</h3>
+    </div>
+</div>
+<form style="z-index: 999">
+    <button type="button" class="close formclose" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+    <div class="form-group">
+
+        <label for="exampleInputEmail1">标题</label>
+        <input type="text" class="form-control" id="exampleInputEmail1" placeholder="title">
+    </div>
+    <div class="form-group">
+        <label for="exampleInputEmail1">内容</label>
+        <textarea class="form-control" rows="3"></textarea>
+    </div>
+    <div class="form-group">
+        <label for="time">时间</label>
+        <input type="date" id="time">
+    </div>
+    <button type="button" class="btn btn-default submitbtn">Submit</button>
+</form>
+<div class="panel panel-default con">
+    <button type="button" class="close formclose1" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+    <div class="panel-heading">标题</div>
+    <div class="panel-body title-con">
+
+    </div>
+    <div class="panel-heading">内容</div>
+    <div class="panel-body con-con">
+
+    </div>
+    <div class="panel-heading">时间</div>
+    <div class="panel-body time-con">
+
+    </div>
+</div>
+
+<div class="skin-selector">
+    <a id="toggle-panel" href="#" title="玩转样式！！！"><img src="images/pin.png" width="26" height="26" alt="" /></a>
+    <div class="container-skins">
+        <div class="style-color clearfix">
+            <h3>Choose Color :</h3>
+            <ul class="cover clearfix">
+                <li class="red" title="red"></li>
+                <li class="mediumvioletred" title="mediumvioletred"></li>
+                <li class="orangered" title="orangered"></li>
+                <li class="darkred" title="darkred"></li>
+                <li class="palevioletred" title="palevioletred"></li>
+            </ul>
+        </div>
+        <div class="font-color clearfix">
+            <h3>Choose Style :</h3>
+            <ul class="cover">
+                <li class="fuchsia" title="fuchsia"></li>
+
+                <li class="white" title="White"></li>
+                <li class="darkblue" title="darkblue"></li>
+                <li class="darkslateblue" title="darkslateblue"></li>
+                <li class="blueviolet" title="blueviolet"></li>
+                <li class="midnightblue" title="midnightblue"></li>
+
+                <li class="greenyellow" title="greenyellow"></li>
+                <li class="darkgreen" title="darkgreen"></li>
+                <li class="lawngreen" title="lawngreen"></li>
+                <li class="mediumspringgreen" title="mediumspringgreen"></li>
+                <li class="pink" title="pink"></li>
+
+                <li class="red" title="red"></li>
+                <li class="mediumvioletred" title="mediumvioletred"></li>
+                <li class="orangered" title="orangered"></li>
+                <li class="darkred" title="darkred"></li>
+                <li class="palevioletred" title="palevioletred"></li>
+
+                <li class="yellow" title="yellow"></li>
+                <li class="yellowgreen" title="yellowgreen"></li>
+                <li class="greenyellow" title="greenyellow"></li>
+                <li class="lightgoldenrodyellow" title="lightgoldenrodyellow"></li>
+                <li class="purple" title="Purple"></li>
+            </ul>
+        </div>
+        <div class="pattern-bg clearfix">
+            <h3>Choose Pattern:</h3>
+            <ul class="cover">
+                <li class="pattern-squares" title="Default"></li>
+                <!--<li class="pattern-card" title="Card"></li>-->
+                <li class="pattern-arches" title="Arches"></li>
+                <li class="pattern-squares2" title="Squares2"></li>
+                <li class="tile" title=""></li>
+
+                <li class="tile2" title="Tile2"></li>
+                <li class="tile3" title="Tile3"></li>
+                <li class="tile4" title="Tile4"></li>
+                <li class="pattern-brushed" title="Brushed"></li>
+                <li class="pattern-paper" title="Paper"></li>
+
+                <!--<li class="pattern-old-paper" title="Old Paper"></li>-->
+                <li class="pattern-grid" title="Grid"></li>
+                <li class="pattern-dots" title="Dots"></li>
+                <li class="pattern-lines" title="Lines"></li>
+                <li class="pattern-birds" title="Birds"></li>
+
+                <li class="pattern-blueprint" title="Blueprint"></li>
+                <li class="pattern-dark" title="Dark"></li>
+                <li class="pattern-dark2" title="Dark2"></li>
+                <li class="pattern-dark-lines" title="Dark Lines"></li>
+                <li class="pattern-carbon" title="Carbon"></li>
+
+                <li class="pattern-carbon2" title="Carbon2"></li>
+                <li class="pattern-metal" title="Metal"></li>
+                <li class="pattern-wood" title="Wood"></li>
+
+                <!--<li class="blur-home" title="Blur Home"></li>-->
+                <!--<li class="blur-office" title="Blur Office"></li>-->
+                <!--<li class="blur-road" title="Blur Road"></li>-->
+
+                <!--<li class="blur-balls" title="Blur Balls"></li>-->
+                <!--<li class="blur-bargs" title="Blur Bargs"></li>-->
+                <!--<li class="blur-bubbles" title="Blur Bubbles"></li>-->
+                <!--<li class="blur-cabbage" title="Blur Cabbage"></li>-->
+                <!--<li class="blur-dooks" title="Blur Dooks"></li>-->
+                <!--<li class="blur-focus" title="Blur Focus"></li>-->
+                <!--<li class="blur-frosty" title="Blur frosty"></li>-->
+                <!--<li class="blur-golden" title="Blur golden"></li>-->
+                <!--<li class="blur-leaf" title="Blur leaf"></li>-->
+                <!--<li class="blur-lights" title="Blur lights"></li>-->
+                <!--<li class="blur-maple" title="Blur maple"></li>-->
+                <!--<li class="blur-maple2" title="Blur maple2"></li>-->
+                <!--<li class="blur-nicecolors" title="Blur nicecolors"></li>-->
+                <!--<li class="blur-shoes" title="Blur shoes"></li>-->
+                <!--<li class="blur-suntree" title="Blur suntree"></li>-->
+                <!--<li class="blur-wood" title="Blur wood"></li>-->
+                <!--<li class="greenbf" title="Greenbf"></li>-->
+                <!--<li class="nicecolors" title="Nicecolors"></li>-->
+
+            </ul>
+        </div>
+        <div class="color-bg clearfix">
+            <h3>Choose Background :</h3>
+            <ul class="cover">
+                <li class="fuchsia" title="fuchsia"></li>
+
+                <li class="white" title="White"></li>
+                <li class="darkblue" title="darkblue"></li>
+                <li class="darkslateblue" title="darkslateblue"></li>
+                <li class="blueviolet" title="blueviolet"></li>
+                <li class="midnightblue" title="midnightblue"></li>
+
+                <li class="greenyellow" title="greenyellow"></li>
+                <li class="darkgreen" title="darkgreen"></li>
+                <li class="lawngreen" title="lawngreen"></li>
+                <li class="mediumspringgreen" title="mediumspringgreen"></li>
+                <li class="pink" title="pink"></li>
+
+                <li class="red" title="red"></li>
+                <li class="mediumvioletred" title="mediumvioletred"></li>
+                <li class="orangered" title="orangered"></li>
+                <li class="darkred" title="darkred"></li>
+                <li class="palevioletred" title="palevioletred"></li>
+
+                <li class="yellow" title="yellow"></li>
+                <li class="yellowgreen" title="yellowgreen"></li>
+                <li class="greenyellow" title="greenyellow"></li>
+                <li class="lightgoldenrodyellow" title="lightgoldenrodyellow"></li>
+                <li class="purple" title="Purple"></li>
+            </ul>
+        </div>
+    </div>
+</div>
+</body>
+</html>
